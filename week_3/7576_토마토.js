@@ -23,7 +23,7 @@ for (let i = 0; i < N; i++) {
     if (board[i][j] === 1) {
       queue.push([i, j]);
     }
-    if (board[i][j] === 0 || board[i][j] === -1) dist[i][j] = -1;
+    if (board[i][j] === 0) dist[i][j] = -1;
   }
 }
 
